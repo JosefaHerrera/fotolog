@@ -6,7 +6,7 @@ var contenidoFF = document.getElementById("cajaposteos").value;
 	//paso 2 creamos el nodo elemento donde irá nuestro post
 var nuevoPost = document.createElement("div");
 	//paso 3 creamos elementos donde guardaremos los valores 
-var contenedorNombre = document.getElementById("strong");
+var contenedorNombre = document.createElement("strong");
 var contenedorPost = document.createElement("p");
 var separacion = document.createElement("hr");
 	//paso 4 Creamos elemento para corazón
